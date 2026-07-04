@@ -62,6 +62,7 @@ Open the **x64 Native Tools Command Prompt for VS** and run the following comman
    `mpiexec -hosts 4 [IP_1] 1 [IP_2] 1 [IP_3] 1 [IP_4] 1 hostname`
 
 4. After the terminal lists every hostname, execute the parallel analytics from the Master node (scaling up to test node failure and efficiency):
+   `mpiexec -hosts 1 [IP_1] 1 C:\MPI_Project\mpi_analytics.exe 10000000`
    `mpiexec -hosts 2 [IP_1] 1 [IP_2] 1 C:\MPI_Project\mpi_analytics.exe 10000000`
    `mpiexec -hosts 3 [IP_1] 1 [IP_2] 1 [IP_3] 1 C:\MPI_Project\mpi_analytics.exe 10000000`
    `mpiexec -hosts 4 [IP_1] 1 [IP_2] 1 [IP_3] 1 [IP_4] 1 C:\MPI_Project\mpi_analytics.exe 10000000`
