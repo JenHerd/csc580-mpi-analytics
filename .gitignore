@@ -1,0 +1,12 @@
+# Compiled Executables and Object Files
+*.exe
+*.obj
+
+# Archive Files
+*.zip
+
+# VS Code Local Workspace Settings
+.vscode/
+
+# Random/Temporary Files
+ut
